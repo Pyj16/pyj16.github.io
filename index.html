@@ -175,11 +175,11 @@
           </li>
 
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Resume</button>
-          </li>
-
-          <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+          
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
           </li>
 
         </ul>
@@ -345,13 +345,136 @@
         </div>
 
 
-
       </article>
 
 
+      
 
+      <!--
+        - #PORTFOLIO
+      -->
 
+      <article class="portfolio" data-page="portfolio">
 
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://github.com/FeriCodeDummy/macrohardDictaphone/tree/dev">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/dictaphone.png" alt="medical dictaphone" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Medical Dictaphone</h3>
+
+                <p class="project-category">
+                  As the closing project and thesis at FERI.
+                An application intended for doctors and specialists to record anamneses during check-ups, have them safely stored, convenient
+                for editing, have them transcribed and converted into PDFs for future reference.
+              </p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://github.com/Pyj16/ConnectLife">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/connectlife.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">ConnectLife web demo</h3>
+
+                <p class="project-category">
+                  ConnectLife was an application started by Hisense in collaboration with Gorenje for IoT home appliaces.
+                The demo was made in collaboration with two other colleagues.
+                It demonstrated the use of the app for remote controlling ovens, stoves, fridges, washing machines and other
+                home appliances.
+                </p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://github.com/Pyj16/MURBlockChain">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/blockchian.png" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Local Blockchain</h3>
+
+                <p class="project-category">
+                  A local simulation of the working of blockchain technology.
+                Includes the ability to activate several clients, miners that communicate with each other, generate blocks,
+                share a ledger of transactions, with dynamic difficulty and proof of work validation.
+              </p>
+
+              </a>
+            </li>
+
+            
+
+          </ul>
+
+        </section>
+
+        
+
+      </article>
+      
       <!--
         - #RESUME
       -->
@@ -376,24 +499,12 @@
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">FERI - Faculty of Electrical Engineering and Computer Science, University of Maribor</h4>
+              <h4 class="h4 timeline-item-title">Faculty of Electrical Engineering and Computer Science, University of Maribor</h4>
 
               <span>2020 — 2025</span>
 
               <p class="timeline-text">
                 Certified Bacherlor's Engineer of Informatics and Communication Technologies.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Yahya Kemal College, Struga</h4>
-
-              <span>2016 — 2020</span>
-
-              <p class="timeline-text">
-                Secondary Education, Gymnasium.
               </p>
 
             </li>
@@ -466,7 +577,7 @@
 
               <h4 class="h4 timeline-item-title">Web Development</h4>
 
-              <span>HTML, CSS, JavaScript, Typescript, Node.js</span>
+              <span>React, Node.js, JavaScript, Typescript, HTML, CSS</span>
 
               <p class="timeline-text">
                 
@@ -485,7 +596,6 @@
               </p>
 
             </li>
-
             
             <li class="timeline-item">
 
@@ -499,6 +609,17 @@
 
             </li>
 
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Version Control</h4>
+
+              <span>GitHub, GitLab</span>
+
+              <p class="timeline-text">
+                
+              </p>
+
+            </li>
             
             <li class="timeline-item">
 
@@ -517,128 +638,6 @@
 
       </article>
 
-
-      <!--
-        - #PORTFOLIO
-      -->
-
-      <article class="portfolio" data-page="portfolio">
-
-        <header>
-          <h2 class="h2 article-title">Portfolio</h2>
-        </header>
-
-        <section class="projects">
-
-          <div class="filter-select-box">
-
-            <button class="filter-select" data-select>
-
-              <div class="select-value" data-selecct-value>Select category</div>
-
-              <div class="select-icon">
-                <ion-icon name="chevron-down"></ion-icon>
-              </div>
-
-            </button>
-
-            <ul class="select-list">
-
-              <li class="select-item">
-                <button data-select-item>All</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Web design</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Applications</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Web development</button>
-              </li>
-
-            </ul>
-
-          </div>
-
-          <ul class="project-list">
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="https://github.com/FeriCodeDummy/macrohardDictaphone/tree/dev">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/dictaphone.png" alt="medical dictaphone" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Medical Dictaphone</h3>
-
-                <p class="project-category">
-                  As the closing project and thesis at FERI, in coordination with three other colleagues.
-                An application intended for doctors and specialists to record anamneses during check-ups, have them safely stored, convenient
-                for editing, have them transcribed and converted into PDFs for future reference.
-              </p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="https://github.com/Pyj16/ConnectLife">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/connectlife.png" alt="orizon" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">ConnectLife web demo</h3>
-
-                <p class="project-category">
-                  ConnectLife was an application started by Hisense in collaboration with Gorenje for IoT home appliaces.
-                The demo was part of an praxis internship at FERI, and was made in collaboration with two other colleagues.
-                It demonstrated the use of the app for remote controlling ovens, stoves, fridges, washing machines and other
-                home appliances.
-                </p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="https://github.com/Pyj16/MURBlockChain">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/blockchian.png" alt="fundo" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Local Blockchain</h3>
-
-                <p class="project-category">As part of the course Network Oriented Computing. A local simulation of the working of blockchain technology.
-                Includes the ability to activate several clients, miners that communicate with each other, generate blocks,
-                share a ledger of transactions, with dynamic difficulty and proof of work validation.</p>
-
-              </a>
-            </li>
-
-            
-
-          </ul>
-
-        </section>
-
-      </article>
-      
 
     </div>
 
